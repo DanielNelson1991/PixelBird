@@ -1,0 +1,16 @@
+#if UNITY_ANDROID || UNITY_IPHONE || UNITY_STANDALONE_OSX || UNITY_TVOS
+// WARNING: Do not modify! Generated file.
+
+namespace UnityEngine.Purchasing.Security {
+    public class AppleTangle
+    {
+        private static byte[] data = System.Convert.FromBase64String("HBIbXg0KHxAaHwwaXgobDBMNXh9Ob3h9K3p0bXQ/Dg4SG143EB1QT7dnDIsjcKsBIeWMW33EK/EzI3OP1qIAXEu0W6uncagVqtxaXW+J39K+HU0JiUR5UiiVpHFfcKTEDWcxy8llw+08WmxUuXFjyDPiIB22Nf5pBE78fwhOcHh9K2Nxf3+Benp9fH94fStjcHpoempVrhc56gh3gIoV8xnxdspeibXSUl4RDshBf07yyT2x8Q3/HrhlJXdR7MyGOjaOHkbga4teHxAaXh0bDAoXGBcdHwoXERBeDnt+ffx/cX5O/H90fPx/f36a79d3TUgkThxPdU53eH0renhtfCstT212VXh/e3t5fH9oYBYKCg4NRFFRCQ4SG149GwwKFxgXHR8KFxEQXj8LS0xPSk5NSCRpc01LTkxOR0xPSk5oTmp4fSt6fW1zPw4OEhteLBERCtXdD+w5LSu/0VE/zYaFnQ6zmN0yChcYFx0fChteHAdeHxAHXg4fDAr+alWuFznqCHeAihXzUD7YiTkzAUjnMlMGyZPy5aKNCeWMCKwJTjG/eE5xeH0rY21/f4F6e059f3+BTmMOEhteLBERCl49P05gaXNOSE5KTAwfHQoXHRteDQofChsTGxAKDVBOp0gBv/krp9nnx0w8haarD+AA3ywJCVAfDg4SG1AdERNRHw4OEhsdHxIbXjcQHVBPWE5aeH0renVtYz8OYe+lYDkulXuTIAf6U5VI3CkyK5LAig3lkKwacbUHMUqm3ECHBoEVtk78esVO/H3d3n18f3x8f3xOc3h3OwBhMhUu6D/3ugocdW79P/lN9P9x40ONVTdWZLaAsMvHcKcgYqi1QxpLXWs1aydjzeqJiOLgsS7EvyYuUU7/vXh2VXh/e3t5fHxO/8hk/831Z/eghzUSi3nVXE58lmZAhi53rctE04pxcH7sdc9faFAKq0JzpRxoUl4dGwwKFxgXHR8KG14OERIXHQdU+Db4iXN/f3t7fk4cT3VOd3h9K2H7/ftl50M5SYzX5T7wUqrP7mymB14fDQ0LExsNXh8dHRsOCh8QHRvr4ARy2jn1JapoSU21unEzsGoXr3mSA0f99S1erUa6z8HkMXQVgVWCLBsSFx8QHRteERBeChYXDV4dGwxQPtiJOTMBdiBOYXh9K2NdemZOaDemCOFNahvfCeq3U3x9f35/3fx/AT/W5oevtBjiWhVvrt3FmmVUvWF6eG18Ky1PbU5veH0renRtdD8ODs9OJpIkekzyFs3xY6AbDYEZIBvCXhEYXgoWG14KFhsQXh8ODhIXHR9ePT9O/H9cTnN4d1T4NviJc39/fxAaXh0REBoXChcREA1eERheCw0bWpyVr8kOoXE7n1m0jxMGk5nLaWlzeHdU+Db4iXN/f3t7fn38f39+IlhOWnh9K3p1bWM/Dg4SG149GwwKdiBO/H9veH0rY156/H92Tvx/ek4n2Xt3Amk+KG9gCq3J9V1FOd2rEfx/fnh3VPg2+IkdGnt/Tv+MTlR4FxgXHR8KFxEQXj8LChYRDBcKB08KFhEMFwoHT2hOanh9K3p9bXM/DkNYGV70TRSJc/yxoJXdUYctFCUaLtT0q6Sagq53eUnOCwtf");
+        private static int[] order = new int[] { 42,9,19,54,57,59,28,30,21,55,45,14,21,35,57,30,21,24,39,32,48,29,28,46,58,36,54,30,50,42,36,50,48,37,42,46,44,55,49,40,40,51,49,50,44,58,48,54,51,51,50,53,54,58,55,55,58,57,59,59,60 };
+        private static int key = 126;
+
+        public static byte[] Data() {
+            return Obfuscator.DeObfuscate(data, order, key);
+        }
+    }
+}
+#endif
